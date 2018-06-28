@@ -23,14 +23,14 @@
       <section>
         <v-container grid-list-xl>
           <v-layout row wrap>
-            <v-flex xs12 md6 offset-md2>
+            <v-flex xs12 md6 offset-md1>
               <v-card flat class="transparent">
                 <h3 class="headline mb-2">プロフィール</h3>
                 <p>2012年に電機メーカー系SIerへ新卒で入社。Backbone.js（jQuery）ベースの内製FWを使用したストレージ系製品のコンソール開発、AngularJS（1.4.x）＋D3.js＋TypeScriptを使用した電車の動きを地図上でアニメーション表示するアプリの開発など、フロントエンドを主に担当。</p>
                 <p>その後2017年末に無職としての活動を開始。開始当時は主に食事と睡眠を担当。2018年春に「現状をヤバいと全く思わないのがヤバい」と考えを改め就活を決意し、遅れを取り戻すべくフロントエンド技術の学習を始める。Vue.js楽しい。やっぱり何か作るのって楽しい。</p>
               </v-card>
             </v-flex>
-            <v-flex xs12 md2>
+            <v-flex xs12 md4>
               <v-card flat class="transparent">
                 <h3 class="headline mb-2">コンタクト</h3>
                 <v-container grid-list-xs>
@@ -42,7 +42,10 @@
                       <a href="https://github.com/s-hakase"><v-icon large>mdi-github-circle</v-icon><span class="grey--text text--darken-4">GitHub</span></a>
                     </v-flex>
                     <v-flex xs4 md12 class="py-0">
-                      <a href="mailto:wal.hakase@gmail.com"><v-icon large>mdi-gmail</v-icon><span class="grey--text text--darken-4">Gmail</span></a>
+                      <a href="https://s-hakase.hatenadiary.jp/"><v-icon large>mdi-notebook</v-icon><span class="grey--text text--darken-4">Blog</span></a>
+                    </v-flex>
+                    <v-flex md12 class="py-0">
+                      <v-icon large>mdi-email</v-icon><span class="grey--text text--darken-4">wal.hakase@gmail.com</span>
                     </v-flex>
                   </v-layout>
                 </v-container>
@@ -55,7 +58,7 @@
       <section>
         <v-container grid-list-xl>
           <v-layout row wrap>
-            <v-flex xs12 md8 offset-md2>
+            <v-flex xs12 md10 offset-md1>
 
               <h2 class="headline mb-2">使用する技術とツール</h2>
               <h3 class="subheading">好き</h3>
@@ -72,7 +75,7 @@
                 </figure>
               </v-layout>
             </v-flex>
-            <v-flex xs12 md8 offset-md2>
+            <v-flex xs12 md10 offset-md1>
 
               <h3 class="subheading">使ったことがある</h3>
 
@@ -98,7 +101,7 @@
       <section>
         <v-container grid-list-xl>
           <v-layout row wrap>
-            <v-flex xs12 md8 offset-md2>
+            <v-flex xs12 md10 offset-md1>
               <h2 class="headline md-2">最近のアウトプット</h2>
 
               <v-layout row wrap>
