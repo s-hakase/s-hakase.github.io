@@ -54,8 +54,8 @@
       <v-divider></v-divider>
       <section>
         <v-container grid-list-xl>
-          <v-layout column>
-            <v-flex md8 offset-md2>
+          <v-layout row wrap>
+            <v-flex xs12 md8 offset-md2>
 
               <h2 class="headline mb-2">使用する技術とツール</h2>
               <h3 class="subheading">好き</h3>
@@ -72,7 +72,7 @@
                 </figure>
               </v-layout>
             </v-flex>
-            <v-flex md8 offset-md2>
+            <v-flex xs12 md8 offset-md2>
 
               <h3 class="subheading">使ったことがある</h3>
 
@@ -97,8 +97,8 @@
       <v-divider></v-divider>
       <section>
         <v-container grid-list-xl>
-          <v-layout column>
-            <v-flex md-8 offset-md2>
+          <v-layout row wrap>
+            <v-flex xs12 md8 offset-md2>
               <h2 class="headline md-2">最近のアウトプット</h2>
 
               <v-layout row wrap>
